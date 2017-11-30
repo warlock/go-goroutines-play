@@ -1,11 +1,11 @@
-package main
+package main2
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func main2() {
 	messages := make(chan string, 2)
 
 	go f("defer", messages)
