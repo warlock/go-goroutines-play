@@ -1,4 +1,4 @@
-package main
+package mainb
 
 import (
     "fmt"
@@ -13,7 +13,7 @@ func dosomething(millisecs time.Duration, wg *sync.WaitGroup) {
     wg.Done()
 }
 
-func main() {
+func main5() {
 	var wg sync.WaitGroup
 	wg.Add(1)
 	go dosomething(200, &wg)

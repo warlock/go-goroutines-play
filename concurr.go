@@ -1,4 +1,4 @@
-package main2
+package maina
 
 import (
 	"fmt"
