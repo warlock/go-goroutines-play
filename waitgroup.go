@@ -1,4 +1,4 @@
-package main
+package main4
 
 import (
     "fmt"
@@ -6,7 +6,7 @@ import (
     "time"
 )
 
-func main() {
+func main4() {
     messages := make(chan int)
     var wg sync.WaitGroup
 
